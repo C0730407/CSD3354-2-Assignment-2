@@ -3,16 +3,18 @@
 //CSD3354 Section 1
 //ASSIGNMENT 2
 //March 7,2019
-//LAB1
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace _730407_731777
 {
-  class Program
+    class Program
     {
         static void Main(string[] args)
         {
-
         }
     }
     public class DelegateExcercises
@@ -29,6 +31,5 @@ namespace ConsoleApp1
             MyDelegate mydelegate = new MyDelegate(Method1);
             mydelegate();
         }
-        
     }
 }
