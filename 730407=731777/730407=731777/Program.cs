@@ -15,6 +15,8 @@ namespace _730407_731777
     {
         static void Main(string[] args)
         {
+            DelegateExcercises de = new DelegateExcercises();
+            de.Method2();
         }
     }
     public class DelegateExcercises
@@ -28,8 +30,8 @@ namespace _730407_731777
         }
         public void Method2()
         {
-            MyDelegate mydelegate = new MyDelegate(Method1);
-            mydelegate();
+            MyDelegate myDelegate = new MyDelegate(Method1);
+            myDelegate();
         }
     }
 }
